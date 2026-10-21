@@ -1,0 +1,33 @@
+* {
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: #efb0df;
+    color: #3f014e;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    list-style-type: none;
+}
+
+input,
+button {
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #ec59c3;
+    color: #3f014e;
+    cursor: pointer;
+}
